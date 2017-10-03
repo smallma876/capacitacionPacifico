@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_0_0.dtd">
+<service-builder package-path="com.meera">
+	<author>meera</author>
+	<namespace>jqgrid</namespace>
+	<entity name="Invheader" local-service="true" remote-service="true">
+		<!-- PK fields -->
+		<column name="invId" type="long" primary="true" />
+		<!-- Audit fields -->
+		<column name="name" type="String" />
+		<column name="ammount" type="long" />
+		<column name="tax" type="long" />
+		<column name="total" type="long" />
+		<column name="notes" type="String" />
+	</entity>
+</service-builder>
